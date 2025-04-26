@@ -34,7 +34,7 @@ comments :
 # Internal nav
 nav:
   - GALLERY: "https://kelseydeee.art/gallery/"  
-  - JOURNAL: "https://kelseydeee.art/journal/"
+  #- JOURNAL: "https://kelseydeee.art/journal/"
   - ABOUT: "https://kelseydeee.art/about/"
 
 # All translation keys

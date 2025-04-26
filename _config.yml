@@ -1,12 +1,12 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+title: Mindfully Made Design
+email: "kelsey.dreier@gmail.com"
+description: "original art and illustration by Kelsey D."
+url: "https://kelseydeee.github.io"
+baseurl: "/artwebsite"
 facebook_username: ""
 twitter_username: ""
-instagram_username: ""
+instagram_username: "mindfullymadedesign"
 github_username:  ""
 deviantart_username: ""
 flickr_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://kelseydeee.github.io/artwebsite/gallery/"  
+  - JOURNAL: "https://kelseydeee.github.io/artwebsite/journal/"
+  - ABOUT: "https://kelseydeee.github.io/artwebsite/about/"
 
 # All translation keys
 translations:

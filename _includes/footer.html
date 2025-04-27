@@ -6,7 +6,7 @@
 
                 <ul class="list-inline text-center">
 
-                    {% if site.facebook_username %}
+                   <!-- {% if site.facebook_username %}
                     <li>
                         <a href="https://facebook.com/{{ site.facebook_username }}" data-toggle="tooltip" title="Facebook">
                             <span class="fa-stack fa-lg">
@@ -25,7 +25,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
+                    {% endif %} -->
                     {% if site.instagram_username %}
                     <li>
                         <a href="https://instagram.com/{{ site.instagram_username }}" data-toggle="tooltip" title="Instagram">
@@ -36,7 +36,7 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.flickr_username %}
+                    <!-- {% if site.flickr_username %}
                     <li>
                         <a href="https://flickr.com/photos/{{ site.flickr_username }}" data-toggle="tooltip" title="Flickr">
                             <span class="fa-stack fa-lg">
@@ -65,7 +65,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
+                    {% endif %}-->
             <li>
     <a href="mailto:{{ site.email }}" data-toggle="tooltip" target="_blank" title="Email">
                        <span class="fa-stack fa-lg">
@@ -75,12 +75,12 @@
           </a> </li>
 
          <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" data-toggle="tooltip" title="Feed">
+                      <!--  <a href="{{ "/feed.xml" | prepend: site.baseurl }}" data-toggle="tooltip" title="Feed">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                             </span>
-                        </a>
+                        </a>-->
                     </li>
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
